@@ -1,0 +1,85 @@
+# =========================
+# Java / Maven
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# =========================
+# IDE
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# VS Code
+.vscode/
+
+# =========================
+# Spring Boot
+# =========================
+spring.log
+*.log
+logs/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# Spring configuration containing secrets
+application-local.properties
+application-local.yml
+application-secret.properties
+application-secret.yml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# =========================
+# Build / Coverage
+# =========================
+.classpath
+coverage/
+jacoco.exec
+
+# =========================
+# Spring AI / Local data
+# =========================
+chroma/
+qdrant/
+vector-store/
+data/
